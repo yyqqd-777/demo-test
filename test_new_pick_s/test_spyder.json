@@ -1,0 +1,26 @@
+{
+    "server_ip": "10.0.7.136",
+    "server_port": 1883,
+    "username": "EE17G1eA",
+    "password": "EE17G1eB",
+    "robot_vel": 1000,
+    "robot_acc": 500,
+    "load_depth_f": 705,
+    "unload_depth_f": 740,
+    "load_depth_b": 755,
+    "unload_depth_b": 790,
+    "spyder": [
+        {
+          "S367": {
+                "distance_to_dm_codes": 342,
+                "shelf_height_1": 90,
+                "shelf_height_2": 690
+            }
+
+        }
+    ],
+    "spyder_path": [
+
+        {"action": "LOAD", "load": true, "forward": false, "distance": "back_unloading"}
+    ]
+}

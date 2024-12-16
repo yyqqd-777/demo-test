@@ -1,0 +1,16 @@
+{
+  "server_ip": "10.0.7.136",
+  "server_port": 1883,
+  "username": "EE17G1eA",
+  "password": "EE17G1eB",
+  "ant_labels": ["A255"],
+  "initial_ant_position": [
+    {
+      "A255": {
+        "x": 106000,
+        "y": 102000,
+        "ori": 90
+      }
+    }
+  ]
+}

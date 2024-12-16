@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>上传文件</h1>
+<form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data" class="upload-form">
+    <div class="form-group">
+        <label for="file">选择文件：</label>
+        <input type="file" id="file" name="file" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="description">描述：</label>
+        <textarea id="description" name="description" rows="3"></textarea>
+    </div>
+    
+    <div class="form-group">
+        <label for="category">分类：</label>
+        <input type="text" id="category" name="category">
+    </div>
+    
+    <button type="submit" class="button">上传</button>
+</form>
+{% endblock %}
